@@ -4,7 +4,7 @@
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    "width" 90;
 }
 /* share style */
 .text-primary{
@@ -17,7 +17,7 @@ nav ul{
     align-items: center;
 }
 .nav-title{
-    font-weight: 800;
+    font-weight: 600;
     font-size: 45px;
 }
 nav ul li{
@@ -60,4 +60,37 @@ nav{
 }
 .banner-profile-pic{
     width: 500px;
+    backdrop-filter: none;
 }
+.header{
+    background-image: url('../bridge.jpg');
+    background-repeat: no-repeat;
+    background-position: top left bottom right;
+}
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 10px;
+    
+    
+}
+/* main styles */
+main{
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+.item-description{
+    font-weight: 600;
+    
+
+    
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
